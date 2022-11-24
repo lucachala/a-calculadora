@@ -6,7 +6,7 @@
     background-color: lightgray;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 5px 15px;
+    box-shadow: 10px 15px;
 }
 
 .button:hover
@@ -17,5 +17,44 @@
 .button:active
 {
     background-color: #5c5c5c;
-    box-shadow: 5 15px
+    box-shadow: 10px 15px
+}
+
+input[type=button]:hover
+{
+    cursor:pointer;
+    background-color:lightgray;
+}
+
+input[type=button]
+{
+    border-spacing: 5px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+input[type=reset]:hover
+{
+    cursor:pointer;
+    background-color:lightgray;
+}
+
+input[type=reset]
+{
+    border-spacing: 5px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+input[type=textfield]:hover
+{
+    cursor:text
+}
+
+input[type=textfield]
+{
+    border-spacing: 5px;
+    border-radius: 5px;
+    cursor:text;
+
 }
