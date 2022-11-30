@@ -31,12 +31,14 @@ input[type=button]
     border-spacing: 5px;
     border-radius: 5px;
     cursor:pointer;
+    font-size: x-large;
 }
 
 input[type=reset]:hover
 {
     cursor:pointer;
     background-color:lightgray;
+    font-size: x-large;
 }
 
 input[type=reset]
@@ -44,11 +46,13 @@ input[type=reset]
     border-spacing: 5px;
     border-radius: 5px;
     cursor:pointer;
+    font-size: x-large;
 }
 
 input[type=textfield]:hover
 {
-    cursor:text
+    cursor:text;
+    font-size: x-large;
 }
 
 input[type=textfield]
@@ -56,5 +60,5 @@ input[type=textfield]
     border-spacing: 5px;
     border-radius: 5px;
     cursor:text;
-
+    font-size: x-large;
 }
